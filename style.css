@@ -1,14 +1,14 @@
 body {
     background-color: rgb(41, 49, 49);
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin: 0px;
     padding: 0px;
 }
 
 a {
-    color:rgb(137, 238, 238)
+    color: rgb(137, 238, 238);
 }
 
 p {
@@ -31,10 +31,6 @@ header,
 table {
     text-align: left;
     margin: 0 auto;
-}
-
-.content {
-    padding-bottom: 20px;
 }
 
 footer {

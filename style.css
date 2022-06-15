@@ -39,6 +39,12 @@ article {
     padding: 1em 0.5em;
 }
 
+article h1,
+article h2,
+article p {
+    padding-bottom: 0.5em;
+}
+
 article table {
     margin: 0 auto;
     text-align: right;

@@ -42,7 +42,7 @@ footer {
     justify-content: center;
 }
 
-#footertext {
+footer p {
     color: rgb(212, 212, 212);
     position: absolute;
     top: 50%;
@@ -50,18 +50,15 @@ footer {
 }
 
 /* Wizardry below */
-.video {
-    background-color: black;
-    padding-bottom: 56.25%; 
+.youtube-embed {
+    padding-bottom: 56.5%;
     height: 0;
     position: relative;
-    padding-top: 30px;
-    overflow: hidden;
 }
 
-.video iframe,
-.video object,
-.video embed {
+.youtube-embed iframe,
+.youtube-embed object,
+.youtube-embed embed {
     border: 0;
     position: absolute;
     left: 0;

@@ -29,8 +29,13 @@ header,
 }
 
 table {
+    width: 320px;
     text-align: left;
     margin: 0 auto;
+}
+
+#trailer {
+    border: 0;
 }
 
 footer {

@@ -1,102 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(41, 49, 49);
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(41, 49, 49);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 
 a {
-    color: rgb(137, 238, 238);
-    text-decoration: none;
+  color: rgb(137, 238, 238);
+  text-decoration: none;
 }
 
 header {
-    background-color: black;
+  background-color: black;
 }
 
 .titleimage {
-    height: 100%;
-    width: 100%;
-    max-width: 640px;
-    max-height: 295px;
+  height: 100%;
+  width: 100%;
+  max-width: 640px;
+  max-height: 295px;
 }
 
 article {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 1em 0.5em;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1em 0.5em;
 }
 
 article h1,
 article h2,
 article p {
-    padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 article table {
-    margin: 0 auto;
-    text-align: right;
+  margin: 0 auto;
+  text-align: right;
 }
 
 article table th {
-    padding-left: 0.5em;
-    text-align: left;
+  padding-left: 0.5em;
+  text-align: left;
 }
 
+/* Container for Youtube-embeds */
+/* Let's the embedded Youtube-video scale to the viewport-size. */
 .youtube-embed {
-    padding-bottom: 56.5%;
-    height: 0;
-    position: relative;
+  padding-bottom: 56.5%;
+  height: 0;
+  position: relative;
+  flex: 1 0 auto;
 }
 
 .youtube-embed iframe,
 .youtube-embed object,
 .youtube-embed embed {
-    border: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+  border: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Makes this div take up all available space in the viewport,
 so that the footer always stays at the bottom. */
-.links {
-    flex: 1 0 auto;
+.spacer {
+  flex: 1 0 auto;
 }
 
-.links ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 1em 2em 1em 2em;
+.links {
+  margin: 0.5em 0;
+}
+
+.links li {
+  display: inline-block;
+  list-style: none;
+  margin: 0.25em;
 }
 
 footer {
-    min-height: 50px;
-    max-height: 50px;
-    width: 100%;
-    background-color: rgb(71, 71, 71);
-    position: relative;
-    display: flex;
-    justify-content: center;
+  min-height: 50px;
+  max-height: 50px;
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 footer p {
-    color: rgb(212, 212, 212);
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+  color: rgb(212, 212, 212);
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
